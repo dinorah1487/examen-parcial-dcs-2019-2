@@ -1,0 +1,21 @@
+﻿2019-11-03 21:37:45.422 INFO  Logging to 'C:\Users\MAX\source\repos\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 21:37:45.943 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-11-03 21:38:40.201 INFO  Logging to 'C:\Users\MAX\source\repos\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 21:38:40.711 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-11-03 21:43:04.146 INFO  Logging to 'C:\Users\MAX\source\repos\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 21:43:04.714 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-11-03 22:23:55.470 INFO  Logging to 'C:\Users\MAX\source\repos\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 22:23:56.665 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-11-03 22:59:31.182 INFO  Logging to 'C:\Users\MAX\source\repos\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 22:59:32.510 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-11-03 23:01:49.690 WARN  'Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: Se ha forzado la interrupción de una conexión existente por el host remoto..
+ ---> System.Net.Sockets.SocketException (10054): Se ha forzado la interrupción de una conexión existente por el host remoto.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2019-11-03 23:01:49.713 INFO  Attempting to reconnect in 10 seconds.
+2019-11-03 23:02:00.336 INFO  Connection to the broker reestablished successfully.
+2019-11-03 23:29:26.437 INFO  Logging to 'D:\LUIS\07_Maestria\ciclo_2\DCS\Transactions.API\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-03 23:29:26.876 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-30'.

@@ -1,0 +1,442 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.NSBEndpoint\\Transactions.NSBEndpoint.csproj": {}
+  },
+  "projects": {
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\Accounts.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\Accounts.Messages.csproj",
+        "projectName": "Accounts.Messages",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\Accounts.Messages.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\Transactions.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\Transactions.Domain.csproj",
+        "projectName": "Transactions.Domain",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\Transactions.Domain.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\UpgFisi.Common.csproj": {
+                "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\UpgFisi.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\Transactions.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\Transactions.Infrastructure.csproj",
+        "projectName": "Transactions.Infrastructure",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\Transactions.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\Transactions.Domain.csproj": {
+                "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Domain\\Transactions.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NServiceBus.NHibernate": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\Transactions.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\Transactions.Messages.csproj",
+        "projectName": "Transactions.Messages",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\Transactions.Messages.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.NSBEndpoint\\Transactions.NSBEndpoint.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.NSBEndpoint\\Transactions.NSBEndpoint.csproj",
+        "projectName": "Transactions.NSBEndpoint",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.NSBEndpoint\\Transactions.NSBEndpoint.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.NSBEndpoint\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\Accounts.Messages.csproj": {
+                "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Accounts.Messages\\Accounts.Messages.csproj"
+              },
+              "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\Transactions.Infrastructure.csproj": {
+                "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Infrastructure\\Transactions.Infrastructure.csproj"
+              },
+              "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\Transactions.Messages.csproj": {
+                "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\Transactions.Messages\\Transactions.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner.MySql": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "NServiceBus.NHibernate": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "NServiceBus.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NServiceBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\UpgFisi.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\UpgFisi.Common.csproj",
+        "projectName": "UpgFisi.Common",
+        "projectPath": "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\UpgFisi.Common.csproj",
+        "packagesPath": "C:\\Users\\GERENCIA ACADEMICA\\.nuget\\packages\\",
+        "outputPath": "C:\\dcs\\Transactions.API\\Transactions.API\\UpgFisi.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GERENCIA ACADEMICA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

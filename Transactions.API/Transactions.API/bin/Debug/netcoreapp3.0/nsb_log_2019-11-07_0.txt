@@ -1,0 +1,4 @@
+﻿2019-11-07 23:50:14.513 INFO  Logging to 'C:\dcs\Transactions.API\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-07 23:50:15.208 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-07'.
+2019-11-07 23:56:38.445 INFO  Logging to 'C:\dcs\Transactions.API\Transactions.API\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-07 23:56:38.711 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-07'.

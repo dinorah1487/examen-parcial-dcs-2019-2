@@ -1,0 +1,6 @@
+﻿2019-10-29 23:52:29.947 INFO  Logging to 'E:\EDA\MoneyTransferEDADotNet-master\MoneyTransferEDADotNet-master\MoneyTransfer.TransactionsService\Transactions.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-10-29 23:52:30.317 INFO  Auditing processed messages to 'audit'
+2019-10-29 23:52:30.402 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.
+2019-10-29 23:56:42.915 INFO  Logging to 'E:\EDA\MoneyTransferEDADotNet-master\MoneyTransferEDADotNet-master\MoneyTransfer.TransactionsService\Transactions.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-10-29 23:56:43.146 INFO  Auditing processed messages to 'audit'
+2019-10-29 23:56:43.174 INFO  No valid license could be found. Falling back to trial license with start date '2019-10-28'.

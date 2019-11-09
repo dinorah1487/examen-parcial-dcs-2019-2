@@ -1,0 +1,6 @@
+﻿2019-11-07 23:50:13.994 INFO  Logging to 'C:\dcs\Transactions.API\Transactions.API\Transactions.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-07 23:50:14.666 INFO  Auditing processed messages to 'audit'
+2019-11-07 23:50:14.791 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-07'.
+2019-11-07 23:56:37.649 INFO  Logging to 'C:\dcs\Transactions.API\Transactions.API\Transactions.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-07 23:56:37.980 INFO  Auditing processed messages to 'audit'
+2019-11-07 23:56:38.022 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-07'.

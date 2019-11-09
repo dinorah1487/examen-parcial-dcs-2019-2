@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Transactions.NSBEndpoint": {
+      "commandName": "Project"
+    }
+  }
+}
